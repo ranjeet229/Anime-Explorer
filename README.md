@@ -2,8 +2,6 @@
 
 Anime Explorer is a modern Android app built with Jetpack Compose, MVVM Clean Architecture, and Koin DI, designed to fetch and display top anime series from the API. It features a polished UI with offline support, Room database caching, robust error handling, and seamless YouTube trailer playback, ensuring a smooth user experience even in challenging network conditions. The app gracefully handles legal constraints on images, provides comprehensive state management with StateFlow, and maintains a clean, well-documented codebase for easy maintenance and scalability.
 
-## 📹 Demo
-https://github.com/user-attachments/assets/847417a5-e182-45fe-aaf4-2dd333d3fa77
 
 ## Objective Implementation Status
 
