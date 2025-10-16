@@ -1,0 +1,72 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background circle with gradient effect -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M54,54m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0"/>
+    
+    <!-- Inner circle for depth -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"/>
+    
+    <!-- Anime character head -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30C45,30 38,37 38,46C38,55 45,62 54,62C63,62 70,55 70,46C70,37 63,30 54,30Z"/>
+    
+    <!-- Character body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,65L68,65L68,85C68,90 63,95 58,95L50,95C45,95 40,90 40,85Z"/>
+    
+    <!-- Eyes -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M48,42m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M60,42m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    
+    <!-- Explorer hat -->
+    <path
+        android:fillColor="#4A90E2"
+        android:pathData="M30,35L78,35L78,45C78,50 73,55 68,55L40,55C35,55 30,50 30,45Z"/>
+    
+    <!-- Hat brim -->
+    <path
+        android:fillColor="#357ABD"
+        android:pathData="M25,40L83,40L83,45L25,45Z"/>
+    
+    <!-- Explorer compass -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M54,70m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"/>
+    
+    <!-- Compass needle -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M54,62L54,78M46,70L62,70"/>
+    
+    <!-- Sparkles for anime theme -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M20,25L25,20L30,25L25,30Z"/>
+    <path
+        android:fillColor="#4ECDC4"
+        android:pathData="M75,30L80,25L85,30L80,35Z"/>
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M15,75L20,70L25,75L20,80Z"/>
+    
+    <!-- Magnifying glass for explorer theme -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#4A90E2"
+        android:strokeWidth="2"
+        android:pathData="M80,28C80,28 85,33 85,38C85,43 80,48 75,48C70,48 65,43 65,38C65,33 70,28 75,28C77,28 79,29 80,30"/>
+</vector>

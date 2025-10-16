@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M60,60m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0"/>
+    
+    <!-- Anime Character Silhouette -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,25C55,25 50,30 50,35C50,40 55,45 60,45C65,45 70,40 70,35C70,30 65,25 60,25Z"/>
+    
+    <!-- Body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45,50L75,50L75,85C75,90 70,95 65,95L55,95C50,95 45,90 45,85Z"/>
+    
+    <!-- Eyes -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M55,35m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M65,35m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    
+    <!-- Sparkles -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M25,30L30,25L35,30L30,35Z"/>
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M85,40L90,35L95,40L90,45Z"/>
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M20,70L25,65L30,70L25,75Z"/>
+</vector>

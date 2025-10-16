@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="180dp"
+    android:viewportWidth="120"
+    android:viewportHeight="180">
+    
+    <!-- Background rectangle -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M0,0h120v180h-120z"/>
+    
+    <!-- Anime character silhouette -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M60,40C50,40 40,50 40,60C40,70 50,80 60,80C70,80 80,70 80,60C80,50 70,40 60,40Z"/>
+    
+    <!-- Body -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M35,85L85,85L85,140C85,150 80,155 75,155L45,155C40,155 35,150 35,140Z"/>
+    
+    <!-- Eyes -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M50,60m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M70,60m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+    
+    <!-- Decorative elements -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M20,30L30,20L40,30L30,40Z"/>
+    <path
+        android:fillColor="#4ECDC4"
+        android:pathData="M80,50L90,40L100,50L90,60Z"/>
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M15,120L25,110L35,120L25,130Z"/>
+</vector>
